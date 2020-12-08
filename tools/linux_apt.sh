@@ -125,7 +125,7 @@ ACLOCAL_PATH=/usr/local/share/aclocal autoreconf -if
 ACLOCAL_FLAGS="-I /usr/local/share/aclocal" autoreconf -if
 ./configure
 make
-make instalO
+make install
 
 # protoc: error while loading shared libraries: libprotoc.so.23: cannot open shared object file: No such file or directory
 # 出现保存执行下面
